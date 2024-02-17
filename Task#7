@@ -1,0 +1,8 @@
+void main() {
+  printPowersOfTwo();
+}
+void printPowersOfTwo() {
+  for (int power = 1; power <= 64; power *= 2) {
+    print(power);
+  }
+}
