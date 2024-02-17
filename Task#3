@@ -1,0 +1,12 @@
+void main() {
+  Listint numbers = [8, 3, 6, 1, 9];
+  String sortedNumbers = sortNumbers(numbers);
+  print('Отсортированные числа $sortedNumbers');
+}
+
+String sortNumbers(Listint numbers) {
+  Listint sortedList = List.from(numbers); 
+  sortedList.sort(); 
+
+  return sortedList.join(', '); 
+}
