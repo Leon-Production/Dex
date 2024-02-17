@@ -1,11 +1,11 @@
 void main() {
-  Listint numbers = [8, 3, 6, 1, 9];
+  List<int> numbers = [12, 4, 9, 6, 15];
   String sortedNumbers = sortNumbers(numbers);
-  print('Отсортированные числа $sortedNumbers');
+  print('Отсортированные числа: $sortedNumbers');
 }
 
-String sortNumbers(Listint numbers) {
-  Listint sortedList = List.from(numbers); 
+String sortNumbers(List<int> numbers) {
+  List<int> sortedList = new List.from(numbers); 
   sortedList.sort(); 
 
   return sortedList.join(', '); 
