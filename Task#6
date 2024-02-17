@@ -1,0 +1,15 @@
+void main() {
+  List<int> numbers = [15, 26, 37, 48, 59, 60, 71, 82, 93];
+  List<int> evenNumbers = getEvenNumbers(numbers);
+  print('Четные числа: $evenNumbers');
+}
+
+List<int> getEvenNumbers(List<int> numbers) {
+  List<int> evenNumbers = [];
+  for (int number in numbers) {
+    if (number % 2 == 0) {
+      evenNumbers.add(number); 
+    }
+  }
+  return evenNumbers;
+}
