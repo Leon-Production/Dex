@@ -1,7 +1,7 @@
 void main() {
   List<int> numbers = [10, 20, 30, 40, 50];
   double average = calculateAverage(numbers);
-  print('Среднее арифметическое: $average');
+  print('Г‘Г°ГҐГ¤Г­ГҐГҐ Г Г°ГЁГґГ¬ГҐГІГЁГ·ГҐГ±ГЄГ®ГҐ: $average');
 }
 
 double calculateAverage(List<int> numbers) {
