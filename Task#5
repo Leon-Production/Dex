@@ -1,0 +1,11 @@
+void main() {
+  String inputString = "Я люблю программирование";
+  String reversedString = reverseWords(inputString);
+  print('Строка с перевернутыми словами: $reversedString');
+}
+
+String reverseWords(String input) {
+  List<String> words = input.split(' '); 
+  words = words.reversed.toList(); 
+  return words.join(' '); 
+}
