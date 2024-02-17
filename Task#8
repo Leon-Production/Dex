@@ -1,0 +1,16 @@
+void main() {
+  List<int> result = calculateStepLength(3, 7);
+  print('result: $result');
+}
+
+List<int> calculateStepLength(int stepSize, int numOfSteps) {
+  List<int> steps = [];
+  int distance = 0;
+  
+  for (int i = 0; i < numOfSteps; i++) {
+    distance += stepSize;
+    steps.add(distance);
+  }
+  
+  return steps;
+}
